@@ -1,0 +1,215 @@
+.contact-section {
+    padding: 100px 0 80px;
+    background: #ffffff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    color: #475569;
+    font-size: 16px;
+}
+
+/* MAIN GRID */
+.contact-wrapper {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.contact-left h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.desc {
+    margin-top: 12px;
+    margin-bottom: 34px;
+    color: #475569;
+    max-width: 420px;
+    line-height: 1.6;
+}
+
+/* INFO ROWS */
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 22px;
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background: #e0ecff;
+    color: #2563eb;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-item strong {
+    color: #0f172a;
+}
+
+.info-item p {
+    margin-top: 4px;
+    color: #475569;
+    font-size: 14.5px;
+}
+
+.info-item span {
+    color: #64748b;
+}
+
+.info-item a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+/* BUSINESS HOURS */
+.hours {
+    margin-top: 34px;
+    background: #eff6ff;
+    padding: 18px 22px;
+    border-left: 4px solid #2563eb;
+    border-radius: 6px;
+    max-width: 460px;
+}
+
+.hours strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #0f172a;
+}
+
+.hours p {
+    color: #475569;
+    font-size: 14.5px;
+}
+
+/* RIGHT CARD */
+.contact-card {
+    background: linear-gradient(180deg,
+            #0b1533 0%,
+            #10245a 45%,
+            #1e3a8a 100%);
+    color: #ffffff;
+    border-radius: 22px;
+    padding: 44px;
+    min-height: 420px;
+    box-shadow: 0 30px 70px rgba(15, 23, 42, 0.45);
+}
+
+.contact-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.contact-card .card-text {
+    color: #c7d2fe;
+    line-height: 1.65;
+}
+
+.contact-card hr {
+    margin: 26px 0;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-card h4 {
+    color: #bfdbfe;
+    margin-bottom: 12px;
+}
+
+.contact-card ul li {
+    margin-bottom: 8px;
+    color: #e0e7ff;
+}
+/* =========================
+   RESPONSIVE – GET IN TOUCH
+   ========================= */
+
+@media (max-width: 900px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        /* 👈 stack */
+        gap: 50px;
+    }
+
+    .desc,
+    .hours {
+        max-width: 100%;
+    }
+
+    .contact-card {
+        padding: 36px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 70px 16px 60px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 14.5px;
+        margin-bottom: 45px;
+    }
+
+    .contact-left h3 {
+        font-size: 22px;
+    }
+
+    .desc {
+        font-size: 14.5px;
+    }
+
+    .info-item {
+        gap: 12px;
+    }
+
+    .icon-box {
+        width: 36px;
+        height: 36px;
+    }
+
+    .contact-card {
+        padding: 28px;
+        border-radius: 18px;
+    }
+
+    .contact-card h3 {
+        font-size: 22px;
+    }
+
+    .contact-card h4 {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,51 @@
+.service-page {
+    padding: 40px 20px 80px;
+}
+
+.service-hero {
+    background: linear-gradient(180deg, #1e3a8a, #0f172a);
+    color: white;
+    padding: 60px 20px;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-hero h1 {
+    font-size: 36px;
+}
+
+.service-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.service-content h3 {
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.benefits li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #eff6ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.service-cta {
+    margin-top: 60px;
+    background: #2563eb;
+    color: white;
+    padding: 40px;
+    border-radius: 18px;
+    text-align: center;
+}

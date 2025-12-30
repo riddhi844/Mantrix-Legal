@@ -1,0 +1,27 @@
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 80px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #64748b;
+    font-size: 14px;
+}
+.brandF {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
