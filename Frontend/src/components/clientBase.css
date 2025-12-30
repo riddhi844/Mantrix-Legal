@@ -22,9 +22,10 @@
     max-width: 1100px;
     margin: auto;
 }
+
 .icon svg {
-  stroke-width: 1.6;
-  color: #2563eb;
+    stroke-width: 1.6;
+    color: #2563eb;
 }
 
 .card .icon {
